@@ -1,0 +1,45 @@
+/* Slider */
+.slider {
+    background-image: url('/img/head_bg.png');
+    background-size: cover;
+    height: 490px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    margin-top: -40px;
+
+}
+.slider_img {
+    text-align: right;
+    width: 50%;
+    padding-right: 60px;
+}
+.slider_text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    padding-left: 15px;
+}
+.sld_title {
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+.sld_text {
+    color: white;
+    font-size: 45px;
+}
+.sld_btn {
+    width: 137px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    background-color: #296f4e;
+    box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 20%);
+}
+
+

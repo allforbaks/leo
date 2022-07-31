@@ -14,19 +14,21 @@
         </div>
         <div class='navigate'>
             <ul class='menu'>
-                <li class='menu_item'><a href="/solution">Solution</a></li>
-                <li class='menu_item'><a href="/products">Products</a></li>
-                <li class='menu_item'><a href="/portfolio">Portfolio</a></li>
-                <li class='menu_item'><a href="/contact">Contact</a></li>
+                <li><a class='menu_item' href="/solution">Solution</a></li>
+                <li><a class='menu_item' href="/products">Products</a></li>
+                <li><a class='menu_item' href="/portfolio">Portfolio</a></li>
+                <li><a class='menu_item' href="/contact">Contact</a></li>
             </ul>
         </div>
     </header>
     <div class='slider'>
         <div class='slider_img'>
-            <img src="img/coffe.pngg" alt="head_bg">
+            <img src="img/coffe.png" alt="coffe">
         </div>
         <div class='slider_text'>
-            <h2 class='slider_title'></h2>
+            <h2 class='sld_title'>Introducing</h2>
+            <span class='sld_text'>Something hot...</span>
+            <button class='sld_btn'>Try Demo</button>
         </div>
     </div>
     @yield('content')
