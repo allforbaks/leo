@@ -1,0 +1,30 @@
+header {
+    display: flex;
+}
+
+/* Logo */
+.logo {
+    width: 30%;
+    text-align: center;
+}
+.logo a{
+    font-size: 120px;
+    color: white;
+}
+
+/* Menu */
+.navigate {
+    width: 70%;
+}
+.menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .menu_item {
+        color: white;
+    }
+}

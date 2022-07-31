@@ -1,3 +1,61 @@
-h1 {
-  font-size: 10px;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+  }
+  
+  input, button {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+  }
+  
+  ul, li {
+    list-style: none;
+  }
+
+header {
+    display: flex;
 }
+
+/* Logo */
+.logo {
+    width: 30%;
+    text-align: center;
+}
+.logo a{
+    font-size: 120px;
+    color: white;
+}
+
+/* Menu */
+.navigate {
+    width: 70%;
+}
+.menu {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .menu_item {
+        color: white;
+    }
+}
+
+/* Reset */
+/* Variables */
+/* Blocks */
