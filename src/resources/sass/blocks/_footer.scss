@@ -1,0 +1,142 @@
+/* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid silver;
+}
+
+.footer {
+    height: 245px;
+    width: 100%;
+    background-color: #2a2926;
+}
+
+.foo {
+    width: 1024px;
+    display: flex;
+    margin: 30px auto 0px auto;
+}
+
+.foo_menu {
+    margin-left: 40px;
+    width: 145px;
+}
+
+.testimonials {
+    width: 350px;
+    margin-left: 40px;
+}
+
+.foo_menu_item {
+    cursor: pointer;
+}
+
+.testi_text {
+    margin-top: 15px;
+}
+
+.foo_menu_item,
+.testi_text {
+    color: #acabab;
+    font-size: 13px;
+}
+
+.foo_menu h5,
+.testimonials h5{
+    color: white;
+    font-size: 22px;
+}
+
+.foo_menu h5 {
+    margin-bottom: 10px;
+}
+
+span.testi_text {
+    color: white;
+}
+
+.foo_logo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.foo_logo a {
+    font-size: 100px;
+    color: #6f6d6f;
+    font-style: italic;
+}
+
+.copy {
+    color: white;
+    font-size: 13px;
+}
+
+/* Form */
+.form_wrap {
+    width: 1024px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.login_form,
+.subs_form {
+    width: 470px;
+    height: 110px;
+    padding: 15px 15px 20px 28px;
+    border-radius: 5px;
+}
+
+.login_form {
+    background-color: #e67624;
+}
+
+.login_form input {
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.login_form button {
+    width: 95px;
+    height: 30px;
+    color: white;
+    background-color: #444444;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.subs_form {
+    background-color: #01d4f3;
+}
+
+form h5 {
+    color: white;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.subs_form input {
+    width: 265px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.subs_form button {
+    background-color: #029bb1;
+    color: white;
+    width: 110px;
+    height: 30px;
+    font-size: 16px;
+    margin-left: 45px;
+    cursor: pointer;
+}
+

@@ -1,11 +1,17 @@
+/* Vars */
+/* @import url('base/_vars.scss'); */
+
 /* Reset */
 @import URL('base/_reset.scss');
-
-/* Variables */
-@import URL('base/_vars.scss');
 
 /* Blocks */
 @import url('blocks/_header.scss');
 
 /* Slider */
 @import url('blocks/_slider.scss');
+
+/* Content */
+@import url("blocks/_content.scss");
+
+/* Footer */
+@import url("blocks/_footer.scss");

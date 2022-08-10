@@ -1,0 +1,117 @@
+/* Content */
+.content {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 65px;
+    margin-bottom: 70px;
+}
+
+.tabs {
+    display: flex;
+    margin: 0 auto;
+}
+
+.tab {
+    width: 256px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.tab.active {
+    font-weight: bold;
+    border: solid #dedede;
+    border-width: 2px 2px 0px 2px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tab span {
+    font-size: 22px;
+    color: #5c5b5b;
+    cursor: pointer;
+}
+
+.tab img {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.tab_info_wrap {
+    width: 100%;
+    z-index: 99;
+    border: 2px solid #dedede;
+    margin-top: -2px;
+    border-radius: 0px 10px 10px 10px;
+}
+
+.tab_info.active{
+    display: block;
+    z-index: 99;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto  ;
+    padding-bottom: 65px;
+}
+
+.tab_info {
+    display: none;
+}
+
+.tab_info img {
+    margin: 55px 0;
+}
+
+.tab_info h3 {
+    color: #4f4f4f;
+    font-size: 38px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.tab_info p {
+    color: #818181;
+    font-size: 14px;
+    text-align: left;
+}
+
+.tab_info p:nth-child(4) {
+    margin-top: 15px;
+}
+
+/* Why choose us */
+.why_we {
+    display: flex;
+    padding-top: 30px;
+}
+
+.pc {
+    margin-right: 55px;
+}
+
+.why_text {
+    margin-top: 25px;
+}
+
+.why_text h3 {
+    color: #4f4f4f;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.why_text li {
+    color: #8a8888;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.galka {
+    margin-right: 10px;
+}

@@ -8,38 +8,60 @@
     justify-content: center;
     align-items: center;
     padding-top: 250px;
-    margin-top: -40px;
+    padding-top: -40px;
 
 }
+
 .slider_img {
     text-align: right;
     width: 50%;
-    padding-right: 60px;
+    padding-right: 100px;
 }
+
 .slider_text {
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 50%;
-    padding-left: 15px;
+    padding-left: 5px;
 }
+
 .sld_title {
     color: white;
     font-weight: bold;
     font-size: 45px;
 }
+
 .sld_text {
     color: white;
     font-size: 45px;
 }
+
 .sld_btn {
     width: 137px;
     height: 35px;
-    font-size: 20px;
-    color: white;
     margin-top: 40px;
+    cursor: pointer;
     background-color: #296f4e;
     box-shadow: 0px 0px 0px 2px rgb(0 0 0 / 20%);
+}
+
+.sld_btn a {
+    font-size: 20px;
+    color: white;
+}
+
+.arrow_left,
+.arrow_right {
+    opacity: 0.3;
+    padding-top: -30px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.arr_l,
+.arr_r {
+    margin-bottom: 50px;
 }
 
 
